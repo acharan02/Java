@@ -16,6 +16,6 @@ import java.util.Scanner;
             System.out.println("The number is Zero.");
         }
         input.close();
-
+        
     }
  }
