@@ -1,0 +1,27 @@
+//right sided triangle pattern.
+//1.decreasing space,2.increasing star...
+/*    
+          *
+        * *
+      * * *
+    * * * *
+  * * * * *  
+  */
+import java.util.Scanner;
+public class Tpattern{
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter no of rows: ");
+        int n = in.nextInt();
+        for (int i=1;i<=n;i++){
+            for (int j=i;j<=n;j++){
+                System.out.print("  ");
+            }
+            for( int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        in.close();
+    }
+} 
